@@ -57,20 +57,24 @@
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
             background: #fff;
         }
-        
+
+        .tribute-section,
         .about-section,
-        .memories-section
-        .tribute-section {
-            background-color: #8B4513; /* Brown color */
+        .memories-section {
+            border: 4px solid #8B4513; /* Wider brown border */
+            background-color: #000; /* Black background */
             color: #fff;
             padding: 1em;
             border-radius: 10px;
             margin-bottom: 20px;
+            text-align: center;
         }
 
-        .tribute-section h2 {
-            font-size: 2em; /* Adjust the font size as needed */
-            text-align: center;
+        .tribute-section h2,
+        .about-section h2,
+        .memories-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
         }
 
         .tribute-content {
@@ -90,11 +94,8 @@
             margin-right: 20px;
         }
 
-        .about-section h2,
-        .memories-section h2 {
-            font-size: 2em;
-            text-align: center;
-            margin-bottom: 20px;
+        .about-section p {
+            text-align: left;
         }
 
         .memories-grid {
@@ -146,12 +147,10 @@
                 </p>
             </div>
         </div>
-
         <div class="about-section">
             <h2>About Sauda</h2>
             <p>Provide information about the professor's life details here.</p>
         </div>
-
         <div class="memories-section">
             <h2>Memories of Sauda</h2>
             <div class="memories-grid">
@@ -161,7 +160,6 @@
                 <!-- Add more images as needed -->
             </div>
         </div>
-
     </main>
 
     <footer>
