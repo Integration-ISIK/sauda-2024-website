@@ -17,17 +17,29 @@
         }
 
         header {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 2em 0;
-        }
+    background: linear-gradient(45deg, #333, #333);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: flex-start; /* Align items horizontally to the start */
+}
 
-        header h1 {
-            font-size: 2.5em;
-            margin-top: 0.5em;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-        }
+header img {
+    max-width: 120px;
+    height: 120px;
+    margin-right: 1em; /* Add margin to separate the logo from the heading */
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 0.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 
         nav {
             background: #444;
